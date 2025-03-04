@@ -1,0 +1,104 @@
+/* สำหรับสไตล์พื้นฐาน */
+.App {
+  text-align: center;
+  color: blue;
+}
+
+.MyFontBlack {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: small;
+}
+
+.MyFont {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: small;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* สำหรับหน้า Dashboard หรือหน้าที่มีข้อมูลตาราง */
+.dashboard-container {
+  position: absolute;  /* ใช้ absolute เพื่อให้ตำแหน่งคงที่ */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-image: url('https://www.northbkk.ac.th/images/about1.jpg'); /* ใส่พาธรูป */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #544caf; 
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* สีพื้นหลังสำหรับแถวคู่ */
+}
+
+tr:hover {
+  background-color: #ddd; /* สีพื้นหลังเมื่อ hover แถว */
+}
+
+/* ปรับแต่งข้อความ h1 */
+h1 {
+  color: white;  /* สีข้อความเป็นขาว */
+  background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังสีดำโปร่งใส */
+  padding: 10px 20px; /* เพิ่มช่องว่างรอบๆ ข้อความ */
+  border-radius: 5px; /* ทำมุมโค้งให้ข้อความ */
+  font-size: 2.5rem; /* ขนาดฟอนต์ใหญ่ขึ้น */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* เพิ่มเงาที่ตัวอักษร */
+}

@@ -1,0 +1,43 @@
+.dashboard-container {
+    background-image: url('https://campus.campus-star.com/app/uploads/2019/01/north-bkk.jpg'); /* ใส่พาธรูป */
+    background-size: cover;  /* ทำให้รูปเต็มจอ */
+    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ป้องกันการซ้ำ */
+    
+    /* เปลี่ยนจาก height: 100vh เป็น min-height: 100vh เพื่อให้เนื้อหาไม่ล้น */
+    min-height: 100vh;
+    width: 100vw;
+    
+    /* ใช้ fixed positioning เพื่อให้พื้นหลังอยู่นิ่ง */
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    /* ใช้ padding แทน justify-content: center เพื่อให้เนื้อหาอยู่กับที่ */
+    padding-top: 20px;
+    overflow: auto; /* ป้องกันเนื้อหาล้น */
+}
+
+table {
+    background: rgba(255, 255, 255, 0.8); /* ใส่พื้นหลังให้ตารางเพื่อให้อ่านง่าย */
+    border-radius: 10px;
+    padding: 20px;
+    h1.text-center {
+    background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังสีดำโปร่งใส */
+    color: white;  /* สีข้อความเป็นสีขาว */
+    padding: 10px 20px;  /* เพิ่มช่องว่างรอบๆ ข้อความ */
+    border-radius: 5px;  /* ทำมุมโค้งให้ข้อความ */
+    font-size: 2.5rem;  /* ขนาดฟอนต์ */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* เพิ่มเงาที่ตัวอักษร */
+    h1.text-center {
+    background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังสีดำโปร่งใส */
+    color: white;  /* สีข้อความเป็นสีขาว */
+    padding: 10px 20px;  /* เพิ่มช่องว่างรอบๆ ข้อความ */
+    border-radius: 5px;  /* ทำมุมโค้งให้ข้อความ */
+    font-size: 2.5rem;  /* ขนาดฟอนต์ */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* เพิ่มเงาที่ตัวอักษร */
+}
+
+}
+
+}
